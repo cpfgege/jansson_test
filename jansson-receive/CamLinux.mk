@@ -1,0 +1,8 @@
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES:=2.c
+#LOCAL_SHARED_LIBRARIES:= libcurl
+LOCAL_SHARED_LIBRARIES:= libjansson
+#LOCAL_LDLIBS:= -ljansson
+LOCAL_MODULE:= 02jansson
+include $(BUILD_EXECUTABLE)
